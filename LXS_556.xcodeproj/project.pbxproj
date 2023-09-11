@@ -16,6 +16,7 @@
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
+		778175B12AAEB572004CB1D2 /* ci_post_clone.sh */ = {isa = PBXFileReference; lastKnownFileType = text.script.sh; path = ci_post_clone.sh; sourceTree = "<group>"; };
 		77B661E22AAEAF0700F186B4 /* LXS_556.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = LXS_556.app; sourceTree = BUILT_PRODUCTS_DIR; };
 		77B661E52AAEAF0700F186B4 /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
 		77B661E72AAEAF0700F186B4 /* SceneDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SceneDelegate.swift; sourceTree = "<group>"; };
@@ -39,9 +40,18 @@
 /* End PBXFrameworksBuildPhase section */
 
 /* Begin PBXGroup section */
+		778175B02AAEB552004CB1D2 /* ci_scripts */ = {
+			isa = PBXGroup;
+			children = (
+				778175B12AAEB572004CB1D2 /* ci_post_clone.sh */,
+			);
+			path = ci_scripts;
+			sourceTree = "<group>";
+		};
 		77B661D92AAEAF0700F186B4 = {
 			isa = PBXGroup;
 			children = (
+				778175B02AAEB552004CB1D2 /* ci_scripts */,
 				77B661E42AAEAF0700F186B4 /* LXS_556 */,
 				77B661E32AAEAF0700F186B4 /* Products */,
 			);
