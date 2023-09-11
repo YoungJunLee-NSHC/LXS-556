@@ -6,6 +6,8 @@
 #  Created by YoungJun Lee on 2023/09/11.
 #  
 
+brew install wget
+
 mkdir LxShield
 cd LxShield
 
