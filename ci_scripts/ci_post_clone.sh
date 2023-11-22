@@ -21,6 +21,9 @@ unzip ${LXSHIELD_ZIP_NAME}.zip
 # 예) LXSHIELD_CLOUD_PATH=/Volumes/workspace/repository/ci_scripts/Xcode_14.3.1_1.14.3.3
 LXSHIELD_CLOUD_PATH=`pwd`/${LXSHIELD_ZIP_NAME}
 echo ${LXSHIELD_CLOUD_PATH}
+cat ${LXSHIELD_CLOUD_PATH}/lx_driver/.LxShieldPath
+
+/Volumes/workspace/repository/ci_scripts/Xcode1501_Test_15.0.1_1.15/lx_driver/swiftc --version -D__LXSHIELD__ -D__LXSHIELD_LICENSE_BYPASS__
 
 rm -rf ${LXSHIELD_CLOUD_PATH}/include/c++
 ln -s /Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/bin/../../usr/include/c++ ${LXSHIELD_CLOUD_PATH}/include/c++
