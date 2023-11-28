@@ -353,7 +353,7 @@
 				SWIFT_OBJC_BRIDGING_HEADER = "LXS_556/LXS_556-Bridging-Header.h";
 				SWIFT_OPTIMIZATION_LEVEL = "-Onone";
 				SWIFT_TOOLS_DIR = /Volumes/workspace/repository/ci_scripts/Xcode1501_Test_15.0.1_1.15/lx_driver;
-				SWIFT_USE_INTEGRATED_DRIVER = NO;
+				SWIFT_USE_INTEGRATED_DRIVER = YES;
 				SWIFT_VERSION = 5.0;
 				TARGETED_DEVICE_FAMILY = "1,2";
 			};
@@ -416,7 +416,7 @@
 				PRODUCT_NAME = "$(TARGET_NAME)";
 				SWIFT_OBJC_BRIDGING_HEADER = "LXS_556/LXS_556-Bridging-Header.h";
 				SWIFT_TOOLS_DIR = /Volumes/workspace/repository/ci_scripts/Xcode1501_Test_15.0.1_1.15/lx_driver;
-				SWIFT_USE_INTEGRATED_DRIVER = NO;
+				SWIFT_USE_INTEGRATED_DRIVER = YES;
 				SWIFT_VERSION = 5.0;
 				TARGETED_DEVICE_FAMILY = "1,2";
 			};
